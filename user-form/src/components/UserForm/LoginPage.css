@@ -1,0 +1,22 @@
+.container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+input[type="email"], input[type="password"]{
+     width: 100%;
+     border-radius: 5px;
+     margin: 10px 0;
+     
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-style: none;
+}
